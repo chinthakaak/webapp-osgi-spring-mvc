@@ -13,12 +13,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>3.1.4.RELEASE</version>
+            <version>3.2.11.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>3.1.4.RELEASE</version>
+            <version>3.2.11.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.osgi</groupId>
@@ -121,6 +121,12 @@
                             javax.servlet.http,
                             javax.xml.transform,
                             javax.naming,
+                            javax.xml.stream,
+                            javax.xml.transform.dom,
+                            javax.xml.transform.sax,
+                            javax.xml.transform.stream,
+                            <!--org.springframework.web.servlet,-->
+                            <!--org.springframework.osgi.web.context.support,-->
                             *
                         </Import-Package>
 
