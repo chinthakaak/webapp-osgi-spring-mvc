@@ -9,11 +9,10 @@ and start using ./servicemix
 
 mvn clean install
 
-3. Install compatible spring and spring-web versions removing the new versions in servicemix 5.5
+3. Install compatible spring-web versions removing the new versions in servicemix 5.5
 features:list|grep spring
-features:uninstall spring
-features:install spring/3.1.4.RELEASE
-features:install spring-web/3.1.4.RELEASE
+features:uninstall spring-web
+features:install spring-web/3.2.11.RELEASE_1
 
 4. Install the war
 install -s webbundle:file:/data/git_projects/webapp-servicemix-osgi-spring-mvc-war/target/webapp-servicemix-osgi-spring-mvc-war-1.0-SNAPSHOT.war
