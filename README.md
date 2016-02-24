@@ -7,7 +7,7 @@ and start using ./servicemix
 
 2. Clone the source and invoke
 
-mvn clean install war:war
+mvn clean install
 
 3. Install compatible spring and spring-web versions removing the new versions in servicemix 5.5
 features:list|grep spring
